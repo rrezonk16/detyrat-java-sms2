@@ -7,7 +7,7 @@ public class Ushtrimi4 {
         int numratTotal = 0;
         int shumefishet = 0;
 
-        System.out.println("Shtypni numrat e plote (terminohet me -9999):");
+        System.out.println("Shtypni numrat te plote loopa terminohet nese shtypet -9999");
 
         while (true) {
             numri = input.nextInt();
