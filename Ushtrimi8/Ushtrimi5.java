@@ -6,7 +6,7 @@ public class Ushtrimi5 {
         int numriNumrave;
 
         do {
-            System.out.print("Shtyp numrin e numrave (te pakten 15): ");
+            System.out.print("Sa numra do te shtypen te pakten 15: ");
             numriNumrave = scanner.nextInt();
         } while (numriNumrave < 15);
 

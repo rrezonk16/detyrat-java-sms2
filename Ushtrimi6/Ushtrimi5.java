@@ -22,7 +22,7 @@ public class Ushtrimi5 {
 
             System.out.println("Fjalia me e shkurter eshte " + fjaliaMin);
         } else {
-            System.out.println("Ju duhet te shtypni te paktën 7 fjale/fjali.");
+            System.out.println("Ju duhet te shtypni te pakten 7 fjale/fjali.");
         }
     }
 }

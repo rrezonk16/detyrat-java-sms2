@@ -5,9 +5,7 @@ public class Ushtrimi5 {
         Scanner input = new Scanner(System.in);
         int numri;
         int numraTotal = 0;
-        int tek = 0;
-        int negativ = 0;
-        int plotepjestueshme7 = 0;
+        int kushti=0;
 
         System.out.println("Shtypni numra te plote 32-bit loopa terminohet me -1111");
 
@@ -20,16 +18,8 @@ public class Ushtrimi5 {
 
             numraTotal++;
 
-            if (numri % 2 == 1) {
-                tek++;
-            }
-
-            if (numri < 0) {
-                negativ++;
-            }
-
-            if (numri % 7 == 0) {
-                plotepjestueshme7++;
+            if (numri % 2 != 0 && numri < 0 && numri % 7 == 0){
+                kushti++;
             }
         }
 
@@ -37,7 +27,7 @@ public class Ushtrimi5 {
             System.out.println("Nuk eshte shtypur asnje numer!");
         } else {
             System.out.println("Jane shtypur gjithsej " + numraTotal + " numra");
-            System.out.println("Prej tyre, " + tek + " jane tek, " + negativ + " jane negativ dhe " + plotepjestueshme7 + " jane te plotepjestueshme me 7");
+            System.out.println("Prej tyre, "+kushti+" plotesojne kushtin");
         }
     }
 }

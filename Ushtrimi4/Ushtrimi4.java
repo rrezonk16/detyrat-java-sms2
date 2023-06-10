@@ -24,6 +24,6 @@ public class Ushtrimi4 {
         }
 
         System.out.println("Numrat e shtypur gjithsej: " + numratTotal);
-        System.out.println("Numrat shumefish të 4 dhe 8: " + shumefishet);
+        System.out.println("Shumefish i 4 dhe 8 jane " + shumefishet+" numra");
     }
 }
